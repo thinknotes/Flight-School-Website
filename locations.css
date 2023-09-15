@@ -1,0 +1,191 @@
+.locations {
+    font-size: 85px;
+    font-family: Helvetica, sans-serif;
+    margin: 30px;
+}
+
+.nev-minn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: -664px -580px 0px 0px;
+    cursor: pointer;
+}
+
+
+
+body {
+    background-color: #E2E6EA;
+}
+
+.ca {
+    width: 674px;
+    height: 663px;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    font-size: 80px;
+    
+    
+    margin: 500px 0px 0px 10px;
+    right: 20%; 
+    
+}
+
+.catext {
+    margin: 500px 0px 0px 0px;
+    padding: 20px;
+}
+
+.button {
+    width: 674px;
+    height: 663px;
+    background-image: url("plane.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    display:block;
+    display: flex;
+    justify-content: end;
+    cursor: pointer;
+    
+}
+
+.button2 {
+    width: 635px;
+    height: 332px;
+    background-image: url("mn1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    display:block;
+    cursor: pointer;
+
+}
+
+.mn {
+    width: 635px;
+    height: 332px;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    font-size: 80px;
+    text-align: left;
+    top: 160px;
+    position: relative;
+   
+}
+
+.mntext {
+    margin: 0;
+    padding: 20px;
+    position: relative;
+    top: -280px;
+}
+
+
+.button3 {
+    width: 635px;
+    height: 314px;
+    background-image: url("cessna.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    margin-top: 20px;
+   
+
+   
+}
+
+.nv {
+    width: 635px;
+    height: 314px;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    font-size: 80px;
+    text-align: left;
+    position: relative;
+    padding: 20px;
+    margin: 0;
+    top: 65%;
+    
+}
+
+.nvtext {
+    position: relative;
+    padding: 20px;
+    margin: 0;
+   
+}
+
+.overall {
+    display: flex;
+    justify-content: center;
+    display: block;
+    height: 40%;
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+
+}
+
+
+nav a {
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    color: black;
+    
+    
+}
+
+nav a:hover {
+    color: #0078d4;
+}
+
+nav li.right {
+    float: right;
+}
+
+
+
+button p{
+    size: 56px;
+}
+
+.img-text{
+    
+    size: 56px;
+}
+
+.cali {
+   
+    margin: 0px 0px 0px 480px ;
+
+}
+
+
+.search-field {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.search {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+::placeholder {
+    color: gray;
+}

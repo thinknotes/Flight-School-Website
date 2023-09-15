@@ -1,0 +1,61 @@
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+
+}
+
+
+nav a {
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    color: black;
+    
+    
+}
+
+nav a:hover {
+    color: #0078d4;
+}
+
+nav li.right {
+    float: right;
+}
+
+body {
+    background-image: url("blue.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 1200px;
+}
+
+.fly {
+    font-size: 150px;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    margin: 950px 0px 0px 0px ;
+}
+
+.search-field {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.search {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
