@@ -146,6 +146,7 @@ nav a {
 }
 
 nav a:hover {
+    /* color: #0078d4; */
     color: #0078d4;
 }
 
@@ -189,3 +190,92 @@ button p{
 ::placeholder {
     color: gray;
 }
+
+@media (max-width: 390px) {
+
+    .overall {
+ 
+        flex-direction: column;
+        display: flex;
+        position: relative;
+        justify-content: flex-start;
+        font-size: 20px;
+        
+    }
+
+    .button2, .button3{
+        width: 330px; 
+        height: auto;
+        margin-top: 20px;
+        /* padding: 0px 0px 10px 0px; */
+        margin: 10px;
+        font-size: 30px;
+        
+    }
+
+    .locations {
+        font-size: 40px;
+        font-family: Helvetica, sans-serif;
+        text-align: left;
+    
+    }
+
+    .cali{
+        display: flex;
+        margin: 0 0 0 0;
+        align-items: flex-start;
+        flex-direction: column;
+
+    }
+
+    .nev-minn {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        cursor: pointer;
+        position: absolute;
+        bottom: -900px;
+        
+    }
+
+    .button {
+        width: 350px;
+        height: 300px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mn {
+        font-size: 60px;
+
+    }
+
+    nav  {
+        display: flex;
+        font-size: 15px;
+        justify-content: space-evenly;
+        width: 100%;
+        cursor: pointer;
+       
+        
+    }
+
+    nav li {
+        display: inline;
+        margin-right: 10px;
+      
+    
+    }
+
+    nav li input {
+        display: none;
+    }
+
+    nav a:hover {
+        /* color: #0078d4; */
+        color: #0078d4;
+    }
+}
+

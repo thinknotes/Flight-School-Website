@@ -67,3 +67,162 @@ body {
    
 }
 
+
+
+
+/* nav  {
+        
+    display: flex;
+    font-size: 15px;
+    justify-content: space-evenly;
+    width: 100%;
+    cursor: pointer;
+    
+} */
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+  
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a:hover {
+    /* color: #0078d4; */
+    color: #0078d4;
+}
+
+nav li.right {
+    float: right;
+}
+
+nav li input {
+    display: none;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    
+    
+}
+
+
+@media (max-width: 390px) {
+
+
+    .catext {
+        font-size: 50px;
+        color: white;
+    }
+
+    .ptext {
+        text-align: center;
+        font-size: 15px;
+        color: white;
+        
+    }
+
+
+    .code {
+        text-align: center;
+        font-size: 15px;
+        color: white;
+     
+        
+    }
+
+
+    .time {
+        text-align: center;
+        font-size: 15px;
+        color: white;
+    }
+
+    .location {
+        color: white;
+        font-size: 20px;
+        font-family: Helvetica, sans-serif;
+        position: absolute;
+        bottom: 90px;
+     
+    } 
+
+    body {
+        background-image: url("santamonica.jpg");
+        background-repeat: no-repeat;
+        background-attachment: cover;
+        /* background-size: 100% 100%; */
+        background-size: contain;
+        height: 100%;
+        /* width: 100%;
+        height: auto; */
+    
+    }
+    
+    
+    
+    button {
+        background-color: blue;
+        color: black;
+        z-index: 1;
+    }
+      
+   
+    
+    
+    nav  {
+        
+        display: flex;
+        font-size: 15px;
+        justify-content: space-evenly;
+        width: 100%;
+        cursor: pointer;
+        
+    }
+
+    nav li {
+        display: inline;
+        margin-right: 10px;
+      
+    
+    }
+
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav a:hover {
+        /* color: #0078d4; */
+        color: #0078d4;
+    }
+    
+    nav li.right {
+        float: right;
+    }
+
+    nav li input {
+        display: none;
+    }
+
+    nav a {
+        text-decoration: none;
+        font-family: Helvetica, sans-serif;
+        color: black;
+        
+        
+    }
+
+
+
+}
+
