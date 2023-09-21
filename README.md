@@ -25,5 +25,7 @@ installation steps:
 - Designed with Abode XD
 - Feel free to contact me if you have any questions. 
 
+#Update
+- 9-16-23 Made website responsive for mobile devices. 
 
 
